@@ -1,0 +1,31 @@
+6 months ago, I stopped using Word, Excel, PowerPoint, Figma, and n8n.
+
+I replaced them all with Claude Code.
+
+Here's what happened:
+
+Instead of paying $800+/year for software subscriptions, I built open-source repos that do the same thing—but better.
+
+The workflow is simple:
+1. Clone the repo
+2. Write a prompt
+3. Get production-ready output
+
+Here's what I built:
+
+openletter - Professional business letters & contracts (replaces Word)
+opendraft - Academic thesis generation with 19 AI agents (replaces research tools)
+openfigma - Social graphics & marketing visuals (replaces Figma/Canva)
+openblog - 5-stage SEO content pipeline (replaces n8n + content tools)
+openkeyword - AI-powered keyword research (replaces Ahrefs/SEMrush)
+openinvoice - Gmail invoice extraction (replaces manual bookkeeping)
+
+All free. All open source.
+
+Clone them, prompt them, ship faster.
+
+Link in comments.
+
+---
+
+#AI #ClaudeCode #OpenSource #Productivity #NoCode #Automation #DeveloperTools #BuildInPublic

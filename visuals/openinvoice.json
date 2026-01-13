@@ -1,0 +1,100 @@
+{
+  "extraction_summary": {
+    "total_processed": 127,
+    "successful": 126,
+    "failed": 1,
+    "processing_time_seconds": 156.3,
+    "model_used": "gemini-2.0-flash",
+    "timestamp": "2026-01-12T09:15:00Z"
+  },
+  "invoices": [
+    {
+      "vendor": "Amazon Web Services",
+      "amount": 1247.83,
+      "currency": "EUR",
+      "date": "2026-01-01",
+      "invoice_number": "INV-2026-9821",
+      "tax_amount": 199.25,
+      "tax_rate": 19,
+      "description": "AWS Monthly Services - December 2025",
+      "items": [
+        { "name": "EC2 Instances", "quantity": 1, "price": 423.50, "total": 423.50 },
+        { "name": "S3 Storage", "quantity": 1, "price": 89.20, "total": 89.20 },
+        { "name": "CloudFront CDN", "quantity": 1, "price": 156.88, "total": 156.88 },
+        { "name": "RDS Database", "quantity": 1, "price": 378.00, "total": 378.00 }
+      ],
+      "extraction_metadata": {
+        "source_file": "aws_invoice_dec2025.pdf",
+        "confidence": 0.98,
+        "processing_time_ms": 1240
+      }
+    },
+    {
+      "vendor": "Vercel Inc.",
+      "amount": 20.00,
+      "currency": "USD",
+      "date": "2026-01-05",
+      "invoice_number": "VCL-8834521",
+      "tax_amount": 0,
+      "tax_rate": 0,
+      "description": "Pro Plan - Monthly",
+      "items": [
+        { "name": "Pro Plan Subscription", "quantity": 1, "price": 20.00, "total": 20.00 }
+      ],
+      "extraction_metadata": {
+        "source_file": "vercel_jan2026.pdf",
+        "confidence": 0.99,
+        "processing_time_ms": 890
+      }
+    },
+    {
+      "vendor": "Hetzner Online GmbH",
+      "amount": 45.90,
+      "currency": "EUR",
+      "date": "2026-01-02",
+      "invoice_number": "R20260102-184729",
+      "tax_amount": 7.33,
+      "tax_rate": 19,
+      "description": "Dedicated Server - January 2026",
+      "items": [
+        { "name": "AX41-NVMe Server", "quantity": 1, "price": 38.57, "total": 38.57 },
+        { "name": "Additional IP", "quantity": 1, "price": 7.33, "total": 7.33 }
+      ],
+      "extraction_metadata": {
+        "source_file": "hetzner_rechnung_jan26.pdf",
+        "confidence": 0.97,
+        "processing_time_ms": 1102
+      }
+    },
+    {
+      "vendor": "OpenAI",
+      "amount": 87.42,
+      "currency": "USD",
+      "date": "2025-12-31",
+      "invoice_number": "INV-00847291",
+      "tax_amount": 0,
+      "tax_rate": 0,
+      "description": "API Usage - December 2025",
+      "items": [
+        { "name": "GPT-4 API Calls", "quantity": 1, "price": 62.18, "total": 62.18 },
+        { "name": "Embeddings", "quantity": 1, "price": 25.24, "total": 25.24 }
+      ],
+      "extraction_metadata": {
+        "source_file": "openai_dec2025.pdf",
+        "confidence": 0.99,
+        "processing_time_ms": 945
+      }
+    }
+  ],
+  "statistics": {
+    "total_amount_eur": 2847.92,
+    "total_amount_usd": 312.45,
+    "vendors_count": 23,
+    "date_range": {
+      "earliest": "2025-01-15",
+      "latest": "2026-01-10"
+    },
+    "avg_confidence": 0.974,
+    "avg_processing_time_ms": 1089
+  }
+}
