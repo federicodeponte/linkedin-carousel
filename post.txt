@@ -13,7 +13,7 @@ The workflow is simple:
 
 Here's what I built:
 
-openletter - Professional business letters & contracts (replaces Word)
+openword - Professional business letters & contracts (replaces Word)
 opendraft - Academic thesis generation with 19 AI agents (replaces research tools)
 openfigma - Social graphics & marketing visuals (replaces Figma/Canva)
 openblog - 5-stage SEO content pipeline (replaces n8n + content tools)
